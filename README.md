@@ -2,6 +2,8 @@
 
 ## 👉 Check it out on Steam tModLoader Workshop [VolpescuBoscaiolo](https://steamcommunity.com/sharedfiles/filedetails/?id=2835309414)
 
+[😶‍🌫️ My Steam Profile](https://steamcommunity.com/profiles/76561198373226361/)
+
 tModLoader mod that introduces "Volpescu", a cool lumberjack that sells you QOF items.
 
 Ported to 1.4.4
