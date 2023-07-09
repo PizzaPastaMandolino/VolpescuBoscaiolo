@@ -1,4 +1,4 @@
-# 🌳 VolpescuBoscaiolo
+# 🌳 VolpescuBoscaiolo a Terraria Mod
 
 ## 👉 Check it out on Steam tModLoader Workshop [VolpescuBoscaiolo](https://steamcommunity.com/sharedfiles/filedetails/?id=2835309414)
 
