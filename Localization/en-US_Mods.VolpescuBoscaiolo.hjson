@@ -10,18 +10,18 @@ NPCs: {
 		DisplayName: Volpescu
 
 		TownNPCMood: {
-			Content: I am content.
-			NoHome: I hate not having a home.
-			FarFromHome: I am too far from home.
-			LoveSpace: I love having so much space.
-			DislikeCrowded: I dislike how crowded I am.
-			HateCrowded: I hate how crowded I am.
-			LoveBiome: I love {BiomeName}.
-			LikeBiome: I like {BiomeName}.
-			DislikeBiome: I dislike {BiomeName}.
-			LoveNPC: I love {NPCName}.
-			LikeNPC_Princess: I like {NPCName}.
-			Princess_LovesNPC: I like {NPCName}.
+			Content: SO FELICE PEFFORZA.
+			NoHome: AHONNA VOGLIO UNA CASA.
+			FarFromHome: AOOO SO TROPPO LONTANO DA CASA.
+			LoveSpace: AMO AVERE TUTTO STO SPAZIO PER LECCARE I PIEDI.
+			DislikeCrowded: AOO DAMME NA CASA MIGLIORE CAZZO.
+			HateCrowded: CAZZO DATEME PIÙ SPAZIO PER LECCARE DEI PIEDINI.
+			LoveBiome: AMO {BiomeName}.
+			LikeBiome: ME PIACE {BiomeName}.
+			DislikeBiome: NON ME PIACE {BiomeName}.
+			LoveNPC: AMO {NPCName}, GLI VOGLIO LECCARE I PIEDINI.
+			LikeNPC_Princess: ME PIACE {NPCName}.
+			Princess_LovesNPC: ME PIACE {NPCName}.
 		}
 	}
 }

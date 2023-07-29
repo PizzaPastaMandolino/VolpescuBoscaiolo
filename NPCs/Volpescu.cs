@@ -114,7 +114,7 @@ namespace VolpescuBoscaiolo.NPCs
             int tavernkeep = NPC.FindFirstNPC(550);
             if (tavernkeep >= 0 && Main.rand.NextBool(8))
             {
-                return "Mio padre" + Main.npc[tavernkeep].GivenName + " è un cazzo di ladro.";
+                return "Mio padre " + Main.npc[tavernkeep].GivenName + " è un cazzo di ladro.";
             }
             // Generic TownNPC dialogue
             switch (Main.rand.Next(6))
@@ -195,7 +195,7 @@ namespace VolpescuBoscaiolo.NPCs
                 {
                     tokenShop.Add(new Item(PreEyeSurfaceForestToken.Type)
                     {
-                        shopCustomPrice = Item.sellPrice(gold: 3, silver: 54)
+                        shopCustomPrice = Item.sellPrice(silver: 40, copper: 54)
                     });
                 }
 
@@ -203,7 +203,7 @@ namespace VolpescuBoscaiolo.NPCs
                 {
                     tokenShop.Add(new Item(PreBossLootToken.Type)
                     {
-                        shopCustomPrice = Item.sellPrice(gold: 3, silver: 54)
+                        shopCustomPrice = Item.sellPrice(silver: 40, copper: 54)
                     });
                 }
 
@@ -211,7 +211,7 @@ namespace VolpescuBoscaiolo.NPCs
                 {
                     tokenShop.Add(new Item(CorruptionTokens.Type)
                     {
-                        shopCustomPrice = Item.sellPrice(gold: 3, silver: 54)
+                        shopCustomPrice = Item.sellPrice(silver: 40, copper: 54)
                     });
                 }
 
@@ -219,7 +219,7 @@ namespace VolpescuBoscaiolo.NPCs
                 {
                     tokenShop.Add(new Item(CrimsonToken.Type)
                     {
-                        shopCustomPrice = Item.sellPrice(gold: 3, silver: 54)
+                        shopCustomPrice = Item.sellPrice(silver: 40, copper: 54)
                     });
                 }
 
@@ -227,7 +227,7 @@ namespace VolpescuBoscaiolo.NPCs
                 {
                     tokenShop.Add(new Item(DesertToken.Type)
                     {
-                        shopCustomPrice = Item.sellPrice(gold: 3, silver: 54)
+                        shopCustomPrice = Item.sellPrice(silver: 40, copper: 54)
                     });
                 }
 
@@ -235,7 +235,7 @@ namespace VolpescuBoscaiolo.NPCs
                 {
                     tokenShop.Add(new Item(SnowToken.Type)
                     {
-                        shopCustomPrice = Item.sellPrice(gold: 3, silver: 54)
+                        shopCustomPrice = Item.sellPrice(silver: 40, copper: 54)
                     });
                 }
 
@@ -243,7 +243,7 @@ namespace VolpescuBoscaiolo.NPCs
                 {
                     tokenShop.Add(new Item(DungeonToken.Type)
                     {
-                        shopCustomPrice = Item.sellPrice(gold: 3, silver: 54)
+                        shopCustomPrice = Item.sellPrice(silver: 40, copper: 54)
                     });
                 }
 
@@ -251,7 +251,7 @@ namespace VolpescuBoscaiolo.NPCs
                 {
                     tokenShop.Add(new Item(HellToken.Type)
                     {
-                        shopCustomPrice = Item.sellPrice(gold: 3, silver: 54)
+                        shopCustomPrice = Item.sellPrice(silver: 40, copper: 54)
                     });
                 }
 
@@ -259,7 +259,7 @@ namespace VolpescuBoscaiolo.NPCs
                 {
                     tokenShop.Add(new Item(JungleToken.Type)
                     {
-                        shopCustomPrice = Item.sellPrice(gold: 3, silver: 54)
+                        shopCustomPrice = Item.sellPrice(silver: 40, copper: 54)
                     });
                 }
 
@@ -267,7 +267,7 @@ namespace VolpescuBoscaiolo.NPCs
                 {
                     tokenShop.Add(new Item(OceanToken.Type)
                     {
-                        shopCustomPrice = Item.sellPrice(gold: 3, silver: 54)
+                        shopCustomPrice = Item.sellPrice(silver: 40, copper: 54)
                     });
                 }
 
@@ -275,7 +275,7 @@ namespace VolpescuBoscaiolo.NPCs
                 {
                     tokenShop.Add(new Item(UndergroundToken.Type)
                     {
-                        shopCustomPrice = Item.sellPrice(gold: 3, silver: 54)
+                        shopCustomPrice = Item.sellPrice(silver: 40, copper: 54)
                     });
                 }
 
@@ -283,7 +283,7 @@ namespace VolpescuBoscaiolo.NPCs
                 {
                     tokenShop.Add(new Item(UndergroundDesertToken.Type)
                     {
-                        shopCustomPrice = Item.sellPrice(gold: 3, silver: 54)
+                        shopCustomPrice = Item.sellPrice(silver: 40, copper: 54)
                     });
                 }
 
@@ -291,7 +291,7 @@ namespace VolpescuBoscaiolo.NPCs
                 {
                     tokenShop.Add(new Item(PrehardmodeFishingToken.Type)
                     {
-                        shopCustomPrice = Item.sellPrice(gold: 3, silver: 54)
+                        shopCustomPrice = Item.sellPrice(silver: 40, copper: 54)
                     });
                 }
 
@@ -299,7 +299,7 @@ namespace VolpescuBoscaiolo.NPCs
                 {
                     tokenShop.Add(new Item(PreHardmodeSpaceToken.Type)
                     {
-                        shopCustomPrice = Item.sellPrice(gold: 3, silver: 54)
+                        shopCustomPrice = Item.sellPrice(silver: 40, copper: 54)
                     });
                 }
 
@@ -309,7 +309,7 @@ namespace VolpescuBoscaiolo.NPCs
                     {
                         tokenShop.Add(new Item(PostGoblinsLootToken.Type)
                         {
-                            shopCustomPrice = Item.sellPrice(gold: 3, silver: 54)
+                            shopCustomPrice = Item.sellPrice(silver: 40, copper: 54)
                         });
                     }
                 }
@@ -320,7 +320,7 @@ namespace VolpescuBoscaiolo.NPCs
                     {
                         tokenShop.Add(new Item(PostEyeSurfaceForestToken.Type)
                         {
-                            shopCustomPrice = Item.sellPrice(gold: 3, silver: 54)
+                            shopCustomPrice = Item.sellPrice(silver: 40, copper: 54)
                         });
                     }
                 }
@@ -331,7 +331,7 @@ namespace VolpescuBoscaiolo.NPCs
                     {
                         tokenShop.Add(new Item(HardmodeFishingToken.Type)
                         {
-                            shopCustomPrice = Item.sellPrice(gold: 3, silver: 54)
+                            shopCustomPrice = Item.sellPrice(silver: 40, copper: 54)
                         });
                     }
 
@@ -339,7 +339,7 @@ namespace VolpescuBoscaiolo.NPCs
                     {
                         tokenShop.Add(new Item(HardmodeLootToken.Type)
                         {
-                            shopCustomPrice = Item.sellPrice(gold: 3, silver: 54)
+                            shopCustomPrice = Item.sellPrice(silver: 40, copper: 54)
                         });
                     }
 
@@ -347,7 +347,7 @@ namespace VolpescuBoscaiolo.NPCs
                     {
                         tokenShop.Add(new Item(HardmodeSpaceToken.Type)
                         {
-                            shopCustomPrice = Item.sellPrice(gold: 3, silver: 54)
+                            shopCustomPrice = Item.sellPrice(silver: 40, copper: 54)
                         });
                     }
 
@@ -357,29 +357,29 @@ namespace VolpescuBoscaiolo.NPCs
                         {
                             tokenShop.Add(new Item(PostPiratesLootToken.Type)
                             {
-                                shopCustomPrice = Item.sellPrice(gold: 3, silver: 54)
+                                shopCustomPrice = Item.sellPrice(silver: 40, copper: 54)
                             });
                         }
                     }
 
-                    if(NPC.downedMechBoss3)
+                    if(NPC.downedMechBoss1)
                     {
                         if (Tokens.TryFind<ModItem>("PostSkeletronLootToken", out ModItem PostSkeletronLootToken))
                         {
                             tokenShop.Add(new Item(PostSkeletronLootToken.Type)
                             {
-                                shopCustomPrice = Item.sellPrice(gold: 3, silver: 54)
+                                shopCustomPrice = Item.sellPrice(silver: 40, copper: 54)
                             });
                         }
                     }
 
-                    if(NPC.downedMechBoss1 && NPC.downedMechBoss2 && NPC.downedMechBoss3)
+                    if(NPC.downedMechBoss1 && NPC.downedMechBoss2 && NPC.downedMechBoss1)
                     {
                         if (Tokens.TryFind<ModItem>("PostMechanicalBossLootToken", out ModItem PostMechanicalBossLootToken))
                         {
                             tokenShop.Add(new Item(PostMechanicalBossLootToken.Type)
                             {
-                                shopCustomPrice = Item.sellPrice(gold: 3, silver: 54)
+                                shopCustomPrice = Item.sellPrice(silver: 40, copper: 54)
                             });
                         }
                     }
@@ -390,7 +390,7 @@ namespace VolpescuBoscaiolo.NPCs
                         {
                             tokenShop.Add(new Item(PostPlanteraLootToken.Type)
                             {
-                                shopCustomPrice = Item.sellPrice(gold: 3, silver: 54)
+                                shopCustomPrice = Item.sellPrice(silver: 40, copper: 54)
                             });
                         }
                     }
@@ -401,7 +401,7 @@ namespace VolpescuBoscaiolo.NPCs
                         {
                             tokenShop.Add(new Item(LihzahrdTempleToken.Type)
                             {
-                                shopCustomPrice = Item.sellPrice(gold: 3, silver: 54)
+                                shopCustomPrice = Item.sellPrice(silver: 40, copper: 54)
                             });
                         }
                     }
@@ -412,7 +412,7 @@ namespace VolpescuBoscaiolo.NPCs
                         {
                             tokenShop.Add(new Item(PostMartiansLootToken.Type)
                             {
-                                shopCustomPrice = Item.sellPrice(gold: 3, silver: 54)
+                                shopCustomPrice = Item.sellPrice(silver: 40, copper: 54)
                             });
                         }
                     }
